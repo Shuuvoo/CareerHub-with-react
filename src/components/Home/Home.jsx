@@ -1,6 +1,7 @@
 import Banner from "../Banner/Banner";
 import CategoryList from "../Categorylist/CategoryList";
 import FeaturedJobs from "../FeaturedJobs/FeaturedJobs";
+import JobDetails from "../JobDetails/JobDetails";
 
 const Home = () => {
     return (
@@ -8,7 +9,6 @@ const Home = () => {
             <Banner></Banner>
             <CategoryList></CategoryList>
             <FeaturedJobs></FeaturedJobs>
-            <h1>This is home element</h1>
         </div>
     );
 };
